@@ -1,0 +1,8 @@
+version: '2'
+services:
+    jhsample-mongodb:
+        image: mongo:3.4.8
+        ports:
+            - "27017:27017"
+        # volumes:
+        #     - ~/volumes/jhipster/jhSample/mongodb/:/data/db/
